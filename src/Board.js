@@ -121,7 +121,7 @@ class Board extends Component {
 
       // TODO
       <div>
-        {this.state.hasWon === false ? <h1> Lights Out</h1> : <h1> You Won!!</h1> }
+        {this.state.hasWon === false ? <h1 className="neon-blue"> Lights Out</h1> : <h1 className="neon-orange"> You Won!!</h1> }
         
         <table className="Board">
           <tbody>
